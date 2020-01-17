@@ -33,6 +33,7 @@ func Xirr(transactions Transactions) float64 {
 
 	for math.Abs(residual) > epsilon && limit > 0 {
 		limit--
+
 		residual = 0.0
 
 		for i, t := range transactions {
