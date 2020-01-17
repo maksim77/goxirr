@@ -3,6 +3,10 @@
 
 Goxirr is a simple implementation of a function for calculating the Internal Rate of Return for irregular cash flow (XIRR).
 
+## Links
+- [Wikipedia](https://en.wikipedia.org/wiki/Internal_rate_of_return)
+- [Excel support](https://support.office.com/en-us/article/XIRR-function-DE1242EC-6477-445B-B11B-A303AD9ADC9D)
+
 ## Example
 
 ```go
