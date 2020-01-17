@@ -1,5 +1,5 @@
 /*
-Package Goxirr is a simple implementation of a function for calculating
+Package goxirr is a simple implementation of a function for calculating
 the Internal Rate of Return for irregular cash flow (XIRR).
 */
 package goxirr
