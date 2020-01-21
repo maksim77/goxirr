@@ -9,16 +9,16 @@ import (
 	"time"
 )
 
-//A Transaction represents a single transaction from a series of irregular payments.
+//A Transaction represent a single transaction from a series of irregular payments.
 type Transaction struct {
 	Date time.Time
 	Cash float64
 }
 
-//Transactions represents a cash flow consisting of individual transactions
+//Transactions represent a cash flow consisting of individual transactions
 type Transactions []Transaction
 
-//Xirr return the Internal Rate of Return (IRR) for an irregular series of cash flows (XIRR)
+//Xirr returns the Internal Rate of Return (IRR) for an irregular series of cash flows (XIRR)
 func Xirr(transactions Transactions) float64 {
 	var years []float64
 	for _, t := range transactions {
