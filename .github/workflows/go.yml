@@ -28,6 +28,9 @@ jobs:
       - name: Lint
         run: /home/runner/go/bin/golangci-lint run
 
+      - name: GolangCI-Lint
+        uses: Mushus/golangci-linter@v1.1.2
+
       - name: Test
         run: go test -v .
 
