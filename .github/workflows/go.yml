@@ -22,12 +22,6 @@ jobs:
               dep ensure
           fi
 
-      - name: Install golangci-lint
-        run: curl -sSfL https://raw.githubusercontent.com/golangci/golangci-lint/master/install.sh | sh -s -- -b $(go env GOPATH)/bin v1.22.2
-
-      - name: Lint
-        run: /home/runner/go/bin/golangci-lint run
-
       - name: GolangCI-Lint
         uses: Mushus/golangci-linter@v1.1.2
 
